@@ -1,4 +1,4 @@
-with open('updated_domains.txt', 'r') as file:
+with open('all_domains.txt', 'r') as file:
     domains = file.read().splitlines()
 
 sorted_domains = sorted(domains, key=lambda domain: domain.split('.')[-2:])
